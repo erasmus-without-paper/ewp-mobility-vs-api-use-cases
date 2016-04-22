@@ -65,7 +65,7 @@ Here's what we propose it should look like in EWP:
  * IRO staff member signs into a central web application dedicated for this
    particular purpose (so called *IIA Repository*).
 
- * Once the staff member is signed in, he can create a new agreement as assign
+ * Once the staff member is signed in, he can create a new agreement and assign
    new institutions to this agreement. The repository will automatically send
    notifications to proper IRO staff members of these institutions, and all
    members will be given the edit privilege.
@@ -98,7 +98,7 @@ accepted by everyone), all listeners are notified once more.
 
 A staff member is given access to the IIA repository after his email address
 appears in proper place in the fact sheets served by the institution
-(Institutions API). When the institution removes this staff member from their
+(Institutions API). When the institution removes this staff member from its
 fact sheets, he is also instantly denied access to the IIA repository.
 
 > A possibility to automatically decline all further proposals from
@@ -131,7 +131,7 @@ time.
 
 Sending institution needs to implement the [Outgoing Mobilities
 APIs][mobilities-api] to support this feature. Once this is done, sending
-institutions creates a new Outgoing Mobility object and notifies the receiving
+institution creates a new Outgoing Mobility object and notifies the receiving
 institution that such objects has been created. Every nominated student is
 "given" exactly one Outgoing Mobility object.
 
