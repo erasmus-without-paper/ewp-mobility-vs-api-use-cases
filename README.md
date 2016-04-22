@@ -136,7 +136,7 @@ institution that such objects has been created. Every nominated student is
 "given" exactly one Outgoing Mobility object.
 
 The receiving institution has access to all the objects and can perform some
-actions on them (by called Outgoing Mobility Remote Update API served by the
+actions on them (by calling Outgoing Mobility Remote Update API served by the
 sending institution). Accepting and rejecting nominations works exactly this
 way.
 
