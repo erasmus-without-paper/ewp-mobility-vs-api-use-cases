@@ -163,7 +163,11 @@ changed many times. Each such change is accompanied by a date and an author.
 
 As described above, Outgoing Mobility APIs are implemented by the sending
 institution. The receiving institution will be using Outgoing Mobility Remote
-Update API for making such changes (adding "history events").
+Update API for making such changes (adding "history events"). It's worth noting
+that, [as requested here]
+(https://github.com/erasmus-without-paper/ewp-wp4-use-cases/issues/3), the
+sending institution is also allowed to implement nominations only (without
+implementing LAs).
 
 > The other institution can either accept or reject the Learning Agreement
 > proposal.
