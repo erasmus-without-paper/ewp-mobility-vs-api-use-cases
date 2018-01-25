@@ -13,11 +13,9 @@ Introduction
 
 ### What exactly is being compared?
 
- * [Version 1.0.0]
-   (https://github.com/erasmus-without-paper/ewp-wp2-use-cases/tree/v1.0.0)
+ * [Version 1.0.0](https://github.com/erasmus-without-paper/ewp-wp2-use-cases/tree/v1.0.0)
    of WP2's *Use Cases* document.
- * [Version 0.2.0]
-   (https://github.com/erasmus-without-paper/ewp-specs-mobility-flowcharts/tree/v0.2.0)
+ * [Version 0.2.0](https://github.com/erasmus-without-paper/ewp-specs-mobility-flowcharts/tree/v0.2.0)
    of WP4's *EWP Mobility Process Explained* document.
  * Draft versions of the API specifications (as committed on 2016-04-19).
 
@@ -50,8 +48,8 @@ Comparison
 
 Fact sheets will be **completely separated** from IIAs in our APIs.
 
- * All fact sheet data will be incorporated into [Institutions API]
-   [institutions-api] and [Departments API][departments-api].
+ * All fact sheet data will be incorporated into
+   [Institutions API][institutions-api] and [Departments API][departments-api].
 
  * HEIs will be allowed to publish this data even if they don't sign any IIAs.
    In fact, they will be allowed to use these APIs even if they **don't
@@ -164,8 +162,7 @@ changed many times. Each such change is accompanied by a date and an author.
 As described above, Outgoing Mobility APIs are implemented by the sending
 institution. The receiving institution will be using Outgoing Mobility Remote
 Update API for making such changes (adding "history events"). It's worth noting
-that, [as requested here]
-(https://github.com/erasmus-without-paper/ewp-wp4-use-cases/issues/3), the
+that, [as requested here](https://github.com/erasmus-without-paper/ewp-wp4-use-cases/issues/3), the
 sending institution is also allowed to implement nominations only (without
 implementing LAs).
 
@@ -245,8 +242,7 @@ Currently, we do not provide such feature, but we are considering it. We're not
 2. It is in EWP's scope. We should design this feature, but we cannot expect
    that institutions will provide it.
 
-Please discuss [here]
-(https://github.com/erasmus-without-paper/ewp-specs-mobility-flowcharts/issues/2).
+Please discuss [here](https://github.com/erasmus-without-paper/ewp-specs-mobility-flowcharts/issues/2).
 
 
 ### Use case #6 (more information needed)
@@ -259,8 +255,7 @@ discuss further. Transcript of Records API, which will be based on the EMREX
 ELMO file, allows us to include some grade conversion information, but without
 more details we are unable to be certain if this use case has been satisfied.
 
-Please discuss [here]
-(https://github.com/erasmus-without-paper/ewp-wp2-use-cases/issues/2).
+Please discuss [here](https://github.com/erasmus-without-paper/ewp-wp2-use-cases/issues/2).
 
 
 [registry-intro]: https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/README.md#registry
@@ -268,8 +263,7 @@ Please discuss [here]
 [statuses]: https://github.com/erasmus-without-paper/ewp-specs-management/blob/stable-v1/README.md#statuses
 [architecture]: https://github.com/erasmus-without-paper/ewp-specs-architecture
 [discovery-api]: https://github.com/erasmus-without-paper/ewp-specs-api-discovery
-[notification-senders]: https://github.com/erasmus-without-paper/ewp-specs-mobility-flowcharts#notification-senders
-[cnr]: https://github.com/erasmus-without-paper/ewp-specs-mobility-flowcharts#notification-senders
+[cnr]: https://github.com/erasmus-without-paper/ewp-specs-architecture#cnr
 [institutions-api]: https://github.com/erasmus-without-paper/ewp-specs-api-institutions
 [departments-api]: https://github.com/erasmus-without-paper/ewp-specs-api-departments
 [iias-api]: https://github.com/erasmus-without-paper/ewp-specs-api-iias
